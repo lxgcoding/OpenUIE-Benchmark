@@ -159,3 +159,10 @@ More methods and evaluation capabilities will be added progressively.
 ---
 
 **Repository:** [OpenUIE-Benchmark](https://github.com/lxgcoding/OpenUIE-Benchmark)
+
+## Development Environment
+
+- Code Editor: Visual Studio Code
+- Execution Platform: Google Colab
+- GPU: NVIDIA Tesla T4
+- Version Control: Git and GitHub
