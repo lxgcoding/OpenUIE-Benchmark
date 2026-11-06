@@ -67,13 +67,13 @@ def save_image(image, save_path):
     image = to_uint8(image)
 
     if image.ndim == 2:
-        output = Image.fromarray(image, mode="L")
+        output = Image.fromarray(image)
 
     elif image.shape[2] == 3:
-        output = Image.fromarray(image, mode="RGB")
+        output = Image.fromarray(image)
 
     elif image.shape[2] == 4:
-        output = Image.fromarray(image, mode="RGBA")
+        output = Image.fromarray(image)
 
     else:
         raise ValueError(
